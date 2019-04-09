@@ -4,8 +4,34 @@
              xmlns:local="clr-namespace:App6"
              x:Class="App6.MainPage">
 
-	<Label Text="Welcome to Xamarin.Forms!" 
-           VerticalOptions="Center" 
-           HorizontalOptions="Center" />
+    <StackLayout>
+
+        <Entry x:Name="Entry1" Placeholder="Matrícula do aluno" />
+
+        <Entry x:Name="Entry2" Keyboard="Numeric" Placeholder="Nota" />
+
+        <Picker x:Name="Picker1" Title="Professor">
+            <Picker.Items></Picker.Items>
+        </Picker>
+
+        <Picker x:Name="Picker2" Title="Disciplina">
+            <Picker.Items></Picker.Items>
+        </Picker>
+
+        <Label x:Name="Label1" IsVisible="False"
+               Text="Nota registrada." TextColor="DarkGreen" />
+
+        <Label x:Name="Label2" IsVisible="False"
+               Text="Aprovado." TextColor="DarkGreen" />
+
+        <Label x:Name="Label3" IsVisible="False"
+               Text="Reprovado." TextColor="Red" />
+
+        <Button x:Name="Button" Text="Avaliar"
+                VerticalOptions="EndAndExpand"
+                HorizontalOptions="Center"
+                Clicked="OnButtonClicked" />
+
+    </StackLayout>
 
 </ContentPage>

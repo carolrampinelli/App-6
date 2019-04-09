@@ -729,11 +729,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Users\\20181enel0037\\source\\repos\\App6\\App6\\App6.Android\\App6.Android.csproj",
+      "projectUniqueName": "D:\\Users\\20181enel0037\\source\\repos\\App-6\\App6\\App6.Android\\App6.Android.csproj",
       "projectName": "App6.Android",
-      "projectPath": "D:\\Users\\20181enel0037\\source\\repos\\App6\\App6\\App6.Android\\App6.Android.csproj",
+      "projectPath": "D:\\Users\\20181enel0037\\source\\repos\\App-6\\App6\\App6.Android\\App6.Android.csproj",
       "packagesPath": "D:\\Users\\20181enel0037\\.nuget\\packages\\",
-      "outputPath": "D:\\Users\\20181enel0037\\source\\repos\\App6\\App6\\App6.Android\\obj\\",
+      "outputPath": "D:\\Users\\20181enel0037\\source\\repos\\App-6\\App6\\App6.Android\\obj\\",
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
       "configFilePaths": [
@@ -750,8 +750,8 @@
       "frameworks": {
         "monoandroid71": {
           "projectReferences": {
-            "D:\\Users\\20181enel0037\\source\\repos\\App6\\App6\\App6\\App6.csproj": {
-              "projectPath": "D:\\Users\\20181enel0037\\source\\repos\\App6\\App6\\App6\\App6.csproj"
+            "D:\\Users\\20181enel0037\\source\\repos\\App-6\\App6\\App6\\App6.csproj": {
+              "projectPath": "D:\\Users\\20181enel0037\\source\\repos\\App-6\\App6\\App6\\App6.csproj"
             }
           }
         }
